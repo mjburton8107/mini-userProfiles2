@@ -5,7 +5,6 @@ $scope.getUsers = function(){
     $scope.users = response.data.data;
   })
 }
-
-$scope.getUsers();
+  $scope.getUsers();
 
 })
